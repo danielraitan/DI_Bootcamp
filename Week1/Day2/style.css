@@ -11,6 +11,9 @@ nav{
 div{
     display: inline-block;
 }
+i{
+    padding-left: 20px;
+}
 nav div[value="products"] {
     font-size:10px;
     padding-left: 85%;
