@@ -8,9 +8,6 @@ nav{
     color: white;
     padding-top:20px ;
 }
-div{
-    display: inline-block;
-}
 i{
     padding-left: 20px;
 }
@@ -18,6 +15,39 @@ nav div[value="products"] {
     font-size:10px;
     padding-left: 85%;
 }
+/* .item{
+    /* width: 20%; ;
+    height: 20px;
+    border-style: solid;
+    margin: 10px;
+}
+img{
+    width: 20%;
+} */ 
+section{
+border: 2px solid black;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+section > * {
+border: 1px solid green;
+width: 25vw;
+height: 40vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
 footer{
     position: fixed;
     bottom: 0;
