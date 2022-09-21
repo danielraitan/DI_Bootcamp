@@ -8,13 +8,12 @@
     
 }
 div{
-    background-color: lightblue;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 6vh;
     height: 20vh;
+    color: white;
 
 }
 .logo{
