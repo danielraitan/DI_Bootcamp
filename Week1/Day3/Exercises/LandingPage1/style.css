@@ -3,9 +3,10 @@ body{
     background-color: rgb(247, 239, 239);
 }
 div{
-    border: 2px solid;
+    /* border: 2px solid; */
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
 }
 .top{
     justify-content: space-around;
@@ -33,14 +34,13 @@ img{
 .bottom{
     justify-content: space-around;
     margin-top: 5em;
-    display:flex;
 }
 .first,.second,.third{
     background-color: white;
     display:grid;
     width: 12em;
+    margin: 5px;
 }
-
 .pink{
     background-color: pink;
 }
@@ -50,8 +50,4 @@ img{
 .aqua{
     background-color: aqua;
 }
-.second{
- 
-}
 
- 
