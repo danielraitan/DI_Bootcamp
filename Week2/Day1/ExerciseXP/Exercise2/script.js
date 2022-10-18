@@ -3,8 +3,8 @@ myWatchedSeries.splice(2, 1,"friends");
 myWatchedSeries.push("green arrow")
 myWatchedSeries.shift()
 myWatchedSeries.unshift("mandalorian")
-console.log("1")
-// console.log(myWatchedSeries)
+console.log(myWatchedSeries[1][2])
+
 
 
 
