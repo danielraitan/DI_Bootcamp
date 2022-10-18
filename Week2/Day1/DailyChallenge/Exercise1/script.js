@@ -4,4 +4,4 @@ fruits.sort();
 fruits.push("kiwi");
 fruits.splice(0,1);
 fruits.reverse();
-console.log(fruits)
+console.log(fruits);
