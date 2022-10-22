@@ -23,5 +23,7 @@ for (let r = 0;r < max; r++){
    console.log(line); 
 }
 
+///////////////// checker 
 
+there is a built in repeat method that is worth taking a look atinstaed of the array on top
 
