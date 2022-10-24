@@ -1,0 +1,13 @@
+body {
+    font-size: 24px;
+}
+div{
+    background-color: lightblue;
+    padding: 2rem;
+}
+li:first-child{
+    display: none;
+}
+li:last-child{
+    border: 4px solid black;
+}
