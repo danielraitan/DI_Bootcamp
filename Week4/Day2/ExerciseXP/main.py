@@ -51,6 +51,16 @@
 #         print(pizza_toppings)
 #         break
 # 9#
+question = int(input("please enter age:"))
+ticket = 0
+if question < 3:
+    ticket = "free"
+if question > 3 & question < 12:
+    ticket = 10
+if question > 12:
+    ticket = 15
+print("the price of your ticket is:", ticket)
+
 
 
    
