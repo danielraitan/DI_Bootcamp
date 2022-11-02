@@ -65,31 +65,16 @@
 # changed number_stores from 7000 to 10000
 
 # 4#
-users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
+# users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
 
-users_dict = dict.fromkeys(users, "")
-
-print(users)
+# users_dict = dict.fromkeys(users, "")
+# print(users)
  
-for x in range(5):
-    for user in users:
-       users_dict[user]= x
+# for x in range(5):
+#     for user in users:
+#        users_dict[user]= x
 
-print(users_dict)
+# print(users_dict)
 
 # r = sorted(users_dict.keys())
 # print(r)
-
-# for user in users:
-#     index = users.index(user)
-#     print(dict(user, index))
-
-# users.sort()
-# print(users)
-
-
-
-
-
-
-
