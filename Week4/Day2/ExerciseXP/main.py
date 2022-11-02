@@ -59,7 +59,7 @@
 #     ticket = 10
 # if question > 12:
 #     ticket = 15
-# print("the price of your ticket is:", ticket)
+# print(f'the price of your ticket is: {ticket}')
 
 
 
