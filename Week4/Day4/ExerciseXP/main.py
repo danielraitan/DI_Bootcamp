@@ -59,13 +59,13 @@
 #     print(f"the temp is {inform} degrees celsius")
 #     if inform < 0:
 #        print("Brrr, that's freezing! Wear some extra layers today") 
-#     elif inform > 0 & inform < 16:
+#     elif  0 <= inform < 16:
 #         print("Quite chilly! Don't forget your coat")
-#     elif inform > 16 & inform < 23:
+#     elif 16 <= inform < 23:
 #         print("good weather")
-#     elif inform > 24 & inform < 32:
+#     elif 24 <= inform < 32:
 #         print("little hot outside")
-#     elif inform > 32 & inform < 40:
+#     elif 32 <= inform < 40:
 #         print("very hot out side")
 # main()
 
