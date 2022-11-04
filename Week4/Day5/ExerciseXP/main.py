@@ -18,7 +18,7 @@ def display_board():
     print("**" + board[12] + "***" + board[13] + "***"+ board[14] + "**" )
 
 def players():
-    print("Select Player - x or x")
+    print("Select Player - x or o")
     p1 = input("Player1: ")
     p2 = ""
     if p1 == "x":
