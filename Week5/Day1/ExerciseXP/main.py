@@ -72,35 +72,35 @@
 # song1.sing_me_a_song()
 
 # 4#
-class Zoo:
+# class Zoo:
     
-    def __init__(self, zoo_name):
-        self.animals = ["Bear", "lion", "deer"]
-        self.zoo_name = zoo_name
+#     def __init__(self, zoo_name):
+#         self.animals = ["Bear", "lion", "deer"]
+#         self.zoo_name = zoo_name
 
-    def add_animal(self, new_animal):
-        self.new_animal = new_animal
-        if new_animal not in self.animals:
-             self.animals.append(new_animal)
-             print(new_animal,  "added to the zoo")
+#     def add_animal(self, new_animal):
+#         self.new_animal = new_animal
+#         if new_animal not in self.animals:
+#              self.animals.append(new_animal)
+#              print(new_animal,  "added to the zoo")
 
-    def get_animals(self):
-        print(my_zoo.animals)
+#     def get_animals(self):
+#         print(my_zoo.animals)
 
-    def sell_animal(self, animal_sold):
-        self.new_animal = animal_sold
-        if animal_sold in self.animals:
-             self.animals.remove(animal_sold)
-             print(animal_sold,  "removed from zoo")
+#     def sell_animal(self, animal_sold):
+#         self.new_animal = animal_sold
+#         if animal_sold in self.animals:
+#              self.animals.remove(animal_sold)
+#              print(animal_sold,  "removed from zoo")
 
-    def sort_animals(self):
-        sorted(my_zoo.animals)
-        print(sorted(my_zoo.animals))
+#     def sort_animals(self):
+#         sorted(my_zoo.animals)
+#         print(sorted(my_zoo.animals))
         
 
-my_zoo = Zoo("my_zoo")
-my_zoo.add_animal("dog")
-my_zoo.add_animal("cat")
-my_zoo.sell_animal("dog")
-my_zoo.get_animals()
-my_zoo.sort_animals()
+# my_zoo = Zoo("my_zoo")
+# my_zoo.add_animal("dog")
+# my_zoo.add_animal("cat")
+# my_zoo.sell_animal("dog")
+# my_zoo.get_animals()
+# my_zoo.sort_animals()
