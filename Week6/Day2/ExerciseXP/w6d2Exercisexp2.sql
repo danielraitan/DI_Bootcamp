@@ -1,0 +1,14 @@
+-- select * from customer;
+-- select last_name, first_name as full_name from customer;
+-- select MIN(create_date) from customer;
+-- SELECT * from customer order by first_name desc;
+-- select film_id, title, description, release_year, rental_rate from film order by rental_rate desc;
+-- select address, phone from address WHERE district = 'Texas';
+-- select * from inventory WHERE film_id = 15 or film_id = 150;
+-- select film_ID, title, description, length, rental_rate from film where title = 'African Egg';
+-- select first_name, last_name, amount, payment_date from customer 
+-- join payment 
+-- on customer.customer_id = payment.customer_id;
+-- select city, country from city 
+-- join country 
+-- on city.country_id = country.country_id;

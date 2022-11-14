@@ -1,0 +1,5 @@
+-- select price from items ORDER BY price asc;
+-- select * from items where price >= 80 ORDER BY price asc;
+-- alter table customers drop column id;
+-- select * from customers  order by first_name ;
+-- select first_name from customers  order by first_name desc ;
