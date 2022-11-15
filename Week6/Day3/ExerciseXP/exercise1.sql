@@ -1,0 +1,26 @@
+-- select * from language;
+-- select title, description, name from film
+-- join language
+-- on film.language_id = language.language_id;
+-- CREATE table new_film(
+-- id serial primary key,
+-- name varchar(20)
+-- );
+-- insert into new_film(id,name)VALUES
+-- (1,'star wars'),
+-- (2,'indiana jones'),
+-- (3,'back to the future');
+-- CREATE table customer_review(
+-- review_id SERIAL primary key NOT NULL,
+-- film_id int REFERENCES new_film(id),
+-- language_id int references LANGUAGE(language_id),
+-- title VARCHAR(20),
+-- score int,
+-- review_text text,
+-- last_update date
+-- );
+-- insert into new_film(id,name)VALUES
+-- (4, 'titanic'),
+-- (5, 'iron man');
+-- DELETE from new_film where name = 'idiana jones';
+-- select * from customer_review;
