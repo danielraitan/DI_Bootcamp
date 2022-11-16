@@ -1,0 +1,19 @@
+-- create table product_orders(
+-- id serial primary key,
+-- item VARCHAR(20)
+-- );
+-- create table items(
+-- id serial primary key,
+-- price int
+-- );
+-- insert into product_orders(item)values
+-- ('pen'),
+-- ('eraser'),
+-- ('pencil');
+-- insert into items(price)values
+-- (10),
+-- (2),
+-- (4);
+-- select items.id, item, price from product_orders
+-- join items
+-- on items.id = product_orders.id where items.id = 2;
