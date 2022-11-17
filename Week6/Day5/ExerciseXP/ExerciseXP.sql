@@ -1,0 +1,5 @@
+-- create table restaurant(
+-- id serial PRIMARY key,
+-- item VARCHAR(20),
+-- price int 
+-- );
